@@ -1,0 +1,59 @@
+* {
+   box-sizing: border-box;
+
+}
+
+html {
+    font-size: 1rem;
+}
+
+
+
+
+/* Graph */
+
+.graph {
+    max-width: 600px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 1rem;
+    padding-left: 7rem;
+    border: 1px solid black;
+}
+
+.graph__item {
+    padding: 1rem;
+    text-indent: -7rem;
+    position: relative;
+}
+
+.graph__item:after {
+    content: attr(percent);
+    position: absolute;
+    left: calc(7rem + 10px);
+}
+
+
+
+/* Colours */
+
+.graph__item--green {
+    background: lightgreen;
+}
+
+.graph__item--blue {
+    background: lightblue;
+}
+
+.graph__item--yellow {
+    background: lightyellow;
+}
+
+.graph__item--pink {
+    background: pink;
+}
+
+.graph__item--orange {
+    background: orange;
+}
+
